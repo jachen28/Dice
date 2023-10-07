@@ -5,7 +5,7 @@ void setup() {
   size(400,400);
    noLoop();
   textAlign(CENTER);
- 
+
 }
 
 void draw () {
