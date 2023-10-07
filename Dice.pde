@@ -5,7 +5,7 @@ void setup() {
   size(400,400);
    noLoop();
   textAlign(CENTER);
-
+ 
 }
 
 void draw () {
@@ -38,6 +38,10 @@ myX = x;
 myY = y;
 }
 
+void roll()
+      {
+         // text("Total: " + sum,50,375);
+      }
 void show()
       {
        int size = 50;
