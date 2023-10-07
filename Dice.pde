@@ -10,10 +10,10 @@ void setup() {
 
 void draw () {
   background(0);
-for(int x = 0; x <400; x+=50) {
-  for(int y = 0; y <400; y+=100){
+for(int i = 0; i < 400; i+=50) {
+  for(int j = 0; j< 500; j+=100){
 
-one = new Die(x,y);
+one = new Die(i,j);
 one.show();
 }
 System.out.println();
