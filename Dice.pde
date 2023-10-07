@@ -16,7 +16,7 @@ for(int x = 0; x < 400; x+=50) {
 one = new Die(x,y);
 one.show();
 }
-System.out.println();
+
 }
 fill(0);
 text("Total: " + sum, 50,380);
