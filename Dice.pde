@@ -9,7 +9,7 @@ void setup() {
 }
 
 void draw () {
-  background(255);
+  background(0);
 for(int x = 0; x <400; x+=50) {
   for(int y = 0; y <400; y+=100){
 
