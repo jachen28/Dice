@@ -38,10 +38,6 @@ myX = x;
 myY = y;
 }
 
-void roll()
-      {
-         // text("Total: " + sum,50,375);
-      }
 void show()
       {
        int size = 50;
