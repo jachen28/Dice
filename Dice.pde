@@ -27,7 +27,7 @@ void mousePressed() {
 redraw();
 sum = 0;
 fill(255);
-text("Total: " + sum, 50,380);
+text("Total: " + sum, 100,380);
 }
 
 class Die {
