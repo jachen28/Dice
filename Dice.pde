@@ -108,7 +108,7 @@ void show()
      i+=6;
 
       }
-sum = 0;
+
    sum = sum + i;
    
 }
