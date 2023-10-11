@@ -43,6 +43,7 @@ void roll()
       }
 void show()
       {
+sum = 0;
        int size = 50;
        for(int i = 0; i < numDots; i++) {
           fill(255);
@@ -108,7 +109,7 @@ void show()
      i+=6;
 
       }
-   sum = i;
+   sum = sum + i;
    
 }
 
