@@ -31,14 +31,15 @@ sum = 0;
 class Die {
 int numDots, myX, myY;
 Die(int x, int y) {
-numDots = (int)(Math.random()*6+1);
+numDots = 0;
 myX = x;
 myY = y;
 }
 
 void roll()
       {
-         // text("Total: " + sum,50,375);
+        numDots = (int)(Math.random()*6+1);
+          sum = sum + numDots;
       }
 void show()
       {
@@ -49,14 +50,14 @@ void show()
       if (numDots == 1) {
         fill(0);
         ellipse(myX+25, myY+25, 5, 5);
-        i+=1;
+       
       }
        if (numDots == 2) {
         fill(0);
         ellipse(myX+10, myY+10, 5, 5);
         fill(0);
         ellipse(myX+40, myY+40, 5, 5);
-       i+=2;
+       
       }
       if (numDots == 3) {
         fill(0);
@@ -65,7 +66,7 @@ void show()
         ellipse(myX+40, myY+40, 5, 5);
         fill(0);
         ellipse(myX+25, myY+25, 5, 5);
-        i+=3;
+       
       }
       if (numDots == 4) {
         fill(0);
@@ -76,7 +77,7 @@ void show()
         ellipse(myX+40, myY+40, 5, 5);
         fill(0);
         ellipse(myX+10, myY+40, 5, 5);
-       i+=4;
+      
       }
       if (numDots == 5) {
         fill(0);
@@ -89,7 +90,7 @@ void show()
         ellipse(myX+40, myY+10, 5, 5);
         fill(0);
         ellipse(myX+10, myY+40, 5, 5);
-       i+=5;
+       
       }
       if (numDots == 6) {
         fill(0);
@@ -104,10 +105,10 @@ void show()
         ellipse(myX+40, myY+25, 5, 5);
         fill(0);
         ellipse(myX+40, myY+40, 5, 5);
-      i+=6;
+     
 
       }
-    sum = sum + i;
+  
  
 }
 
