@@ -108,7 +108,7 @@ void show()
 
       }
    sum = sum + i;
- 
+   sum = 0;
 }
 
       }
