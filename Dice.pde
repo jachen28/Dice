@@ -26,20 +26,20 @@ text("Total: " + sum, 50,380);
 void mousePressed() {
 redraw();
 sum = 0;
-numDots = (int)(Math.random()*6+1);
+
 }
 
 class Die {
 int numDots, myX, myY;
 Die(int x, int y) {
-numDots = 0;
+numDots = (int)(Math.random()*6+1);
 myX = x;
 myY = y;
 }
 
 void roll()
       {
-      numDots = (int)(Math.random()*6+1);
+      
       }
 void show()
       {
@@ -108,7 +108,7 @@ void show()
      i+=6;
 
       }
-   sum = sum + i;
+   sum = i;
    
 }
 
