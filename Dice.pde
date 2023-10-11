@@ -31,14 +31,14 @@ sum = 0;
 class Die {
 int numDots, myX, myY;
 Die(int x, int y) {
-numDots = (int)(Math.random()*6+1);
+numDots = 0;
 myX = x;
 myY = y;
 }
 
 void roll()
       {
-       
+       (int)(Math.random()*6+1);
       }
 void show()
       {
@@ -108,7 +108,7 @@ void show()
 
       }
    sum = sum + i;
-   sum = 0;
+   
 }
 
       }
